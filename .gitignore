@@ -1,0 +1,9 @@
+phrase.txt
+proxy.txt
+party_id.txt
+__pycache__/
+*.pyc
+.env
+.venv/
+*.session
+*.log
