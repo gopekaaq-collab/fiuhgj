@@ -2,7 +2,12 @@ import os
 
 # ─── Telegram ───
 BOT_TOKEN = os.environ.get("BOT_TOKEN")
+
+# Full access — all controls
 AUTHORIZED_CHAT_ID = 6469077855
+
+# Read-only access — System Status & View Logs only
+VIEWER_CHAT_ID = 1118770958
 
 # ─── File System ───
 PHRASE_FILE = "phrase.txt"
